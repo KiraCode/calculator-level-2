@@ -34,7 +34,7 @@
                   height="40px"
                 />
               </button>
-              <button id="ce" class="btn-class btn-primary">
+              <button id="ce" class="btn-class btn-primary" onclick="clearExpression()">
                 CE
               </button>
               <button class="btn btn-primary">AC</button>
@@ -55,7 +55,7 @@
               <button class="btn">8</button>
               <button class="btn">9</button>
               <button class="btn">÷</button>
-              <button class="btn">%</button>
+              <button class="btn-class" onclick="calculatePercentage()">%</button>
             </div>
 
             <!-- 4th row -->
@@ -64,7 +64,7 @@
               <button class="btn">5</button>
               <button class="btn">6</button>
               <button class="btn">x</button>
-              <button class="btn">1/x</button>
+              <button class="btn-class" onclick="inverse()">1/x</button>
             </div>
 
             <!-- 5th row -->
@@ -73,7 +73,7 @@
               <button class="btn">2</button>
               <button class="btn">3</button>
               <button class="btn">+</button>
-              <button class="btn-class btn-primary btn-equal">(=)</button>
+              <button class="btn-class btn-primary btn-equal" onclick="getResult()">(=)</button>
             </div>
 
             <!-- 6th row -->
@@ -89,5 +89,6 @@
       <!-- footer -->
       <p class="copyright-text">&copy; 2025 WSA. All Rights Reserved</p>
     </div>
+    <script src="./javascript/script.js"></script>
   </body>
 </html>
