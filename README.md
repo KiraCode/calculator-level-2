@@ -36,7 +36,7 @@ It performs basic arithmetic operations and includes smart features like percent
 ## 📁 Project Structure
 
 <pre>
-  calculator/
+calculator/
 ├── css/
 │ └── style.css # Stylesheet for the calculator UI
 ├── javascript/
