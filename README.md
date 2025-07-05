@@ -1,51 +1,46 @@
-# 📱 Calculator
+# 🧠 Advanced Calculator - Level 2 (BODMAS Rule)
+
+An enhanced version of the basic calculator that supports parentheses and follows the **BODMAS rule** (Brackets, Orders, Division, Multiplication, Addition, Subtraction). This advanced calculator displays full user input and evaluates expressions accurately when the "=" button is pressed.
 
 
-A responsive and interactive **Calculator** web app built with **HTML**, **CSS**, and **Vanilla JavaScript**.  
-It performs basic arithmetic operations and includes smart features like percentage calculation, inverse, expression clearing, and input validation for an enhanced user experience.
+## 🌟 Features
 
----
+- Support for parentheses `(` and `)`
+- Accurate calculations using **BODMAS** rule
+- Dynamic input display until "=" is pressed
+- Simple UI with responsive layout
+- Lightweight and easy to use
 
-## ✨ UI Features
 
-- Clean and modern UI
-- Responsive layout
-- Supports:
-  - Addition, Subtraction, Multiplication, Division
-  - Percentage calculation
-  - Inverse calculation (`1/x`)
-  - Expression clearing
-  - Backspace and clear (`AC`)
-  - Keyboard input support (if added)
-- Real-time input and result display
 
----
+## 🚀 Live Demo
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-Click%20Here-brightgreen?style=for-the-badge)](https://kira-calculator.netlify.app/)
+[![Live Demo](https://img.shields.io/badge/Live-Demo-green?style=for-the-badge&logo=vercel)](https://kira-calculator.netlify.app/)
 
----
 
-## 🧑‍💻 Languages Used
 
-- HTML  
-- CSS  
-- JavaScript (Vanilla)
+## 🛠️ Tech Stack
 
----
+- **HTML5**
+- **CSS3**
+- **Vanilla JavaScript**
+
+
 
 ## 📁 Project Structure
 
 <pre>
-calculator/
+advanced-calculator/
+│
 ├── css/
-│ └── style.css   # Stylesheet for the calculator UI
+│   └── style.css           # Styles for calculator layout and buttons
+│
 ├── javascript/
-│ └── script.js   # JavaScript logic for the calculator
-└── index.html    # Main HTML file
+│   └── script.js           # Calculator logic including BODMAS expression parsing
+│
+└── index.html              # HTML structure of the calculator
 </pre>
 
-
----
 
 ## 📄 License
 
@@ -54,4 +49,3 @@ MIT License
 Copyright (c) 2025 Tejas
 
 Open source under the [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-.
