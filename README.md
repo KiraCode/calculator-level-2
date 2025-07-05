@@ -38,10 +38,10 @@ It performs basic arithmetic operations and includes smart features like percent
 <pre>
 calculator/
 ├── css/
-│ └── style.css # Stylesheet for the calculator UI
+│ └── style.css   # Stylesheet for the calculator UI
 ├── javascript/
-│ └── script.js # JavaScript logic for the calculator
-└── index.html # Main HTML file
+│ └── script.js   # JavaScript logic for the calculator
+└── index.html    # Main HTML file
 </pre>
 
 
